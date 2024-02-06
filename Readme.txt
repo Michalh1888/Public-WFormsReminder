@@ -1,0 +1,1 @@
+Aplikace pro upomínání narozenin(a dalších dat).
