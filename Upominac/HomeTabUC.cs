@@ -85,7 +85,7 @@ namespace Upominac
                 personDetailTextBox.Text = osobaZobraz.DalsiUdaje.Replace("\t\t", "\r\n");
                 dateBirthLabel.Text = osobaZobraz.Narozeniny.ToLongDateString();
                 ageLabel.Text = osobaZobraz.SpoctiVek().ToString();
-                nameDayLabel.Text = spravceOsob.NajdiSvatekOsoby(osobaZobraz.Jmeno);
+                //nameDayLabel.Text = spravceOsob.NajdiSvatekOsoby(osobaZobraz.Jmeno);
                 //nastavení kalendáře na datum narozenin vybrané osoby
                 birthMonthCalendar.SelectionStart = osobaZobraz.Narozeniny;
             }
